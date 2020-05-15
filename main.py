@@ -15,9 +15,9 @@ GLOBAL_MAX_AGENT_TIME = 1500
 
 
 def load_files():
-    world = World("instances//large//kiva-180.map", GLOBAL_MAX_AGENT_TIME)
-    tasks = TaskDict("instances//large//kiva-2000.task", world)
-    agent_tour_dict = TourDict("tour//middle-2000-180-.tour", len(world.agents), tasks)
+    world = World("instances//small//kiva-10-500-5.map", GLOBAL_MAX_AGENT_TIME)
+    tasks = TaskDict("instances//small//kiva-1.task", world)
+    agent_tour_dict = TourDict("tour//10-1.tour", len(world.agents), tasks)
     return world, tasks, agent_tour_dict
 
 
