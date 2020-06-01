@@ -1,4 +1,4 @@
-## M-TA-Prioritized-MAPD
+# M-TA-Prioritized-MAPD
 Multi-Agent Pickup and Delivery implementation
 
 Implementation of the [TA-Prioritized](https://dl.acm.org/doi/10.5555/3306127.3331816) algorithm with a modified deadlock avoidance method.
@@ -11,7 +11,7 @@ Implementation of the [TA-Prioritized](https://dl.acm.org/doi/10.5555/3306127.33
 **Blue cells:** Task endpoints (pickup/delivery)<br/>
 **Black cells:** Wall/blocked cell<br/>
 
-# Requirements
+## Requirements
 Requires [Mesa](https://mesa.readthedocs.io/en/master/index.html) to run the simulation.<br/>
 Install with PIP:
 ```
