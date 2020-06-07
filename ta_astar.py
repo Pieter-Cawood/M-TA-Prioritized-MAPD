@@ -6,7 +6,6 @@ Created on Wed Apr 22 07:43:03 2020
 """
 from heapq import *
 from ta_state import *
-from ta_state import State
 from ta_world import MAPNODETYPES
 
 
@@ -86,7 +85,6 @@ class AStar:
         came_from = {}
         open_list = [initial_state]
         closed_set = set()
-        neibaonce = False
         initial_state.g_score = 0
         initial_state.f_score = get_heuristic(start_location, goal_location)
         while open_list:
@@ -103,7 +101,6 @@ class AStar:
             neighbours = self.get_neighbours(current)
             neighbour: State
             for neighbour in neighbours:
-                neibaonce = True
                 # Only explore new states
                 if (neighbour not in closed_set) and (neighbour not in open_list):
                     came_from[neighbour] = current
