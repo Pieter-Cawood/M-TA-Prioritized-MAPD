@@ -1,7 +1,7 @@
 # M-TA-Prioritized-MAPD
 Multi-Agent Pickup and Delivery
 
-Implementation of the [TA-Prioritized](https://dl.acm.org/doi/10.5555/3306127.3331816) algorithm with a modified deadlock avoidance method.
+Implementation of the [TA-Prioritized](https://dl.acm.org/doi/10.5555/3306127.3331816) algorithm with a modified deadlock avoidance method for a significant improvement of the larger instances' makespans.
 
 
 
