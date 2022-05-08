@@ -11,11 +11,11 @@ from mesa.space import MultiGrid
 from mesa.datacollection import DataCollector
 from mesa_agents import Parking, Wall, Space, Robot
 from ta_world import MAPNODETYPES
-
+import mesa_sceduler
 
 class Warehouse(Model):
     def __init__(self, world, tsp_seqs, last_sim_step):
-        self.schedule = RandomActivation(self)
+        self.schedule = mesa_scheduler.RandomActivation(self)
         self.world = world
         self.tsp_seq = tsp_seqs
         self.last_sim_step = last_sim_step
