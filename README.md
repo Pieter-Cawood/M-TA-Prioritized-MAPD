@@ -21,3 +21,11 @@ Install with Conda:
 ```
 conda install mesa
 ```
+
+## Agent with unique id (x,x) already added to schedular
+Mesa had an update that prevents two agents in the same location. There some endpoints and parking are treated like agents this caused an issue
+and I created custom Mesa files. TODO: Make a better workaround. See:
+https://github.com/Pieter-Cawood/M-TA-Prioritized-MAPD/issues/1#issuecomment-1120507719
+
+
+
