@@ -15,16 +15,12 @@ Implementation of the [TA-Prioritized](https://dl.acm.org/doi/10.5555/3306127.33
 Requires [Mesa](https://mesa.readthedocs.io/en/master/index.html) to run the simulation.<br/>
 Install with PIP:
 ```
-pip install mesa
-```
-Install with Conda:
-```
-conda install mesa
+pip install Mesa==0.9.0
 ```
 
 ## Agent with unique id (x,x) already added to scheduler
 Mesa had an update that prevents two agents in the same location. There some endpoints and parking are treated like agents this caused an issue
-and I created custom Mesa files. TODO: Make a better workaround. See:
+and I created custom Mesa files. See:
 https://github.com/Pieter-Cawood/M-TA-Prioritized-MAPD/issues/1#issuecomment-1120507719
 
 
