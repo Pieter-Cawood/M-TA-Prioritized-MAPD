@@ -15,7 +15,7 @@ Implementation of the [TA-Prioritized](https://dl.acm.org/doi/10.5555/3306127.33
 Requires [Mesa](https://mesa.readthedocs.io/en/master/index.html) to run the simulation.<br/>
 Install with PIP:
 ```
-pip install Mesa==0.9.0
+pip install Mesa==0.8.7
 ```
 
 ## Agent with unique id (x,x) already added to scheduler
