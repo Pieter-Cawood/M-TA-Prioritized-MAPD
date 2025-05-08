@@ -18,10 +18,5 @@ Install with PIP:
 pip install Mesa==0.8.7
 ```
 
-## Agent with unique id (x,x) already added to scheduler
-Mesa had an update that prevents two agents in the same location. There some endpoints and parking are treated like agents this caused an issue
-and I created custom Mesa files. See:
-https://github.com/Pieter-Cawood/M-TA-Prioritized-MAPD/issues/1#issuecomment-1120507719
-
 
  
